@@ -7,3 +7,4 @@ packages:
     - run-length-encoding
     - rna-transcription
     - sum-of-multiples
+    - difference-of-squares
