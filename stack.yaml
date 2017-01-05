@@ -6,3 +6,4 @@ packages:
     - bob
     - run-length-encoding
     - rna-transcription
+    - sum-of-multiples
