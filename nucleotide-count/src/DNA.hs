@@ -1,6 +1,6 @@
 module DNA (count, nucleotideCounts) where
 
-import Data.Map (Map, lookup, fromList, update, member)
+import Data.Map (Map, lookup, fromList, adjust, member)
 import Control.Monad (foldM)
 
 initMap :: Map Char Int
@@ -19,7 +19,7 @@ nucleotideCounts = foldM mapStep initMap
 
 mapStep :: (Map Char Int) -> Char -> Either String (Map Char Int)
 mapStep m c = case member c initMap of
-    True  -> Right $ update (\v -> Just (v + 1)) c m
+    True  -> Right $ adjust succ c m
     False -> Left strInvalidNucleotide
 
 maybeToEither :: a -> Maybe b -> Either a b
