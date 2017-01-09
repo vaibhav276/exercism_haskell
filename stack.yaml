@@ -9,3 +9,4 @@ packages:
     - sum-of-multiples
     - difference-of-squares
     - grains
+    - hamming
