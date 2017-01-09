@@ -10,3 +10,4 @@ packages:
     - difference-of-squares
     - grains
     - hamming
+    - nucleotide-count
