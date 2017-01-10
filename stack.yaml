@@ -11,3 +11,4 @@ packages:
     - grains
     - hamming
     - nucleotide-count
+    - grade-school
