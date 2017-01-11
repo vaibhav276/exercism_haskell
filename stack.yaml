@@ -12,3 +12,4 @@ packages:
     - hamming
     - nucleotide-count
     - grade-school
+    - etl
