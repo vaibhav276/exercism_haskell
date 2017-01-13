@@ -13,3 +13,4 @@ packages:
     - nucleotide-count
     - grade-school
     - etl
+    - raindrops
