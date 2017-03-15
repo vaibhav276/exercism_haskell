@@ -24,3 +24,4 @@ packages:
     - robot-simulator
     - secret-handshake
     - anagram
+    - simple-linked-list
