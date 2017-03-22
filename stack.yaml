@@ -25,3 +25,4 @@ packages:
     - secret-handshake
     - anagram
     - simple-linked-list
+    - list-ops
